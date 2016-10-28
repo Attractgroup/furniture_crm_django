@@ -56,3 +56,6 @@ django-rest-swagger==0.3.4
 
 # Cross domain requests
 django-cors-headers
+
+# Mixins for Django's class-based views
+django-braces==1.10.0
