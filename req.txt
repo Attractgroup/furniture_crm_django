@@ -62,6 +62,3 @@ django-braces==1.10.0
 
 # Expand option in serializer
 djangorestframework-expander==0.2.3
-
-# Addition Mixins
-django-braces==1.10.0
