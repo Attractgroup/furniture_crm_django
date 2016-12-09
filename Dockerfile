@@ -9,5 +9,5 @@ RUN pip install -r /requirements/req.txt \
     && groupadd -r django \
     && useradd -r -g django django
 
-RUN apt-get update \
-    && apt-get install gettext
+RUN apt-get update -y \
+    && apt-get install -y gettext
