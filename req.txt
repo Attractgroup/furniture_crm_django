@@ -60,5 +60,5 @@ django-cors-headers
 # Mixins for Django's class-based views
 django-braces==1.10.0
 
-# Expand option in serializer
+# Expand option in serializer (Don not used, but as alternative)
 djangorestframework-expander==0.2.3
