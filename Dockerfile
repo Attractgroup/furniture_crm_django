@@ -10,4 +10,5 @@ RUN pip install -r /requirements/req.txt \
     && useradd -r -g django django
 
 RUN apt-get update -y \
-    && apt-get install -y gettext
+    && apt-get install -y gettext \
+    && apt-get install -y cron
