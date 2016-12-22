@@ -64,3 +64,5 @@ django-braces==1.10.0
 djangorestframework-expander==0.2.3
 
 xlrd==1.0.0
+
+django-crontab
