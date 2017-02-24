@@ -68,4 +68,4 @@ xlrd==1.0.0
 django-crontab
 
 #Parsing SQL queryes
-sqlparse
+sqlparse==0.2.2
