@@ -66,3 +66,6 @@ djangorestframework-expander==0.2.3
 xlrd==1.0.0
 
 django-crontab
+
+#Parsing SQL queryes
+sqlparse
