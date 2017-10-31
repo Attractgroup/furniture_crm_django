@@ -29,6 +29,10 @@ django-redis-cache==1.7.0
 # Image manipulation
 django-versatileimagefield==1.6
 
+# Thumbnails
+sorl-thumbnail==12.4a1
+Pillow==3.4.2
+
 # Mocking
 mock==2.0.0
 
