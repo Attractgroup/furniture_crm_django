@@ -76,3 +76,6 @@ sqlparse==0.2.2
 
 # install xhtml2pdf fork with fix css parser
 git+https://github.com/attract/xhtml2pdf.git
+
+# toolbar
+django-debug-toolbar==1.8
