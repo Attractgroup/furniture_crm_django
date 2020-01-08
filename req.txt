@@ -2,7 +2,7 @@
 Django==1.9.8
 
 # Mysql
-mysqlclient
+mysqlclient==1.3.12
 
 # Environmental var configuration
 django-configurations==2.0
@@ -59,7 +59,7 @@ whitenoise==3.2.2
 django-rest-swagger==0.3.4
 
 # Cross domain requests
-django-cors-headers
+django-cors-headers==2.1.0
 
 # Mixins for Django's class-based views
 django-braces==1.10.0
@@ -69,7 +69,7 @@ djangorestframework-expander==0.2.3
 
 xlrd==1.0.0
 
-django-crontab
+django-crontab==0.7.1
 
 #Parsing SQL queryes
 sqlparse==0.2.2
