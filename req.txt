@@ -79,3 +79,6 @@ git+https://github.com/attract/xhtml2pdf.git
 
 # toolbar
 django-debug-toolbar==1.8
+
+# requests
+requests==2.22.0
