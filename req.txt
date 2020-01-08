@@ -1,85 +1,138 @@
-# Django
-Django==1.9.8
-
-# Mysql
-mysqlclient==1.3.12
-
-# Environmental var configuration
-django-configurations==2.0
-
-# Models
-django-model-utils==2.6
-
-# Rest apis
-djangorestframework==3.4.7
-Markdown==2.6.7
-django-filter==0.15.2
-
-# Time zones support
-pytz==2016.6.1
-
-# WSGI Handler
-gevent==1.1.2
-gunicorn==19.6.0
-
-# Caching
-redis==2.10.6
-hiredis==0.2.0
-django-redis-cache==1.7.0
-
-# Image manipulation
-django-versatileimagefield==1.6
-
-# Thumbnails
-sorl-thumbnail==12.4a1
-Pillow==3.4.2
-
-# Mocking
-mock==2.0.0
-
-# Fixtures
-factory-boy==2.7.0
-
-# Test Runner
-django-nose==1.4.4
-nose-progressive==1.5.1
-
-# Code Coverage
+blessings==1.6
 coverage==4.2
-
-# Style Enforcement
-flake8==3.0.4
-
-# Django-secure
-django-secure==1.0.1
-
-# Static files
-whitenoise==3.2.2
-
-# Api Interface
-django-rest-swagger==0.3.4
-
-# Cross domain requests
-django-cors-headers==2.1.0
-
-# Mixins for Django's class-based views
+Django==1.9.8
 django-braces==1.10.0
-
-# Expand option in serializer (Don not used, but as alternative)
-djangorestframework-expander==0.2.3
-
-xlrd==1.0.0
-
+django-configurations==2.0
+django-cors-headers==2.1.0
 django-crontab==0.7.1
-
-#Parsing SQL queryes
+django-debug-toolbar==1.8
+django-filter==0.15.2
+django-model-utils==2.6
+django-nose==1.4.4
+django-redis-cache==1.7.0
+django-rest-swagger==0.3.4
+django-secure==1.0.1
+django-versatileimagefield==1.6
+djangorestframework==3.4.7
+djangorestframework-expander==0.2.3
+factory-boy==2.7.0
+fake-factory==9999.9.9
+flake8==3.0.4
+gevent==1.1.2
+greenlet==0.4.12
+gunicorn==19.6.0
+hiredis==0.2.0
+html5lib==1.0b10
+httplib2==0.10.3
+Markdown==2.6.7
+mccabe==0.5.3
+mock==2.0.0
+mysqlclient==1.3.12
+nose==1.3.7
+nose-progressive==1.5.1
+pbr==3.1.1
+Pillow==3.4.2
+pycodestyle==2.0.0
+pyflakes==1.2.3
+PyPDF2==1.26.0
+pytz==2016.6.1
+PyYAML==3.12
+redis==2.10.6
+reportlab==3.4.0
+six==1.11.0
+sorl-thumbnail==12.4a1
 sqlparse==0.2.2
-
+webencodings==0.5.1
+whitenoise==3.2.2
+# xhtml2pdf==0.2b1
+# xlrd==1.0.0
 # install xhtml2pdf fork with fix css parser
 git+https://github.com/attract/xhtml2pdf.git
 
+##### было так, сделал выше всё из pip freeze #####
+
+# Django
+# Django==1.9.8
+
+# Mysql
+# mysqlclient==1.3.12
+
+# Environmental var configuration
+# django-configurations==2.0
+
+# Models
+# django-model-utils==2.6
+
+# Rest apis
+# djangorestframework==3.4.7
+# Markdown==2.6.7
+# django-filter==0.15.2
+
+# Time zones support
+# pytz==2016.6.1
+
+# WSGI Handler
+# gevent==1.1.2
+# gunicorn==19.6.0
+
+# Caching
+# redis==2.10.6
+# hiredis==0.2.0
+# django-redis-cache==1.7.0
+
+# Image manipulation
+# django-versatileimagefield==1.6
+
+# Thumbnails
+# sorl-thumbnail==12.4a1
+# Pillow==3.4.2
+
+# Mocking
+# mock==2.0.0
+
+# Fixtures
+# factory-boy==2.7.0
+
+# Test Runner
+# django-nose==1.4.4
+# nose-progressive==1.5.1
+
+# Code Coverage
+# coverage==4.2
+
+# Style Enforcement
+# flake8==3.0.4
+
+# Django-secure
+# django-secure==1.0.1
+
+# Static files
+# whitenoise==3.2.2
+
+# Api Interface
+# django-rest-swagger==0.3.4
+
+# Cross domain requests
+# django-cors-headers==2.1.0
+
+# Mixins for Django's class-based views
+# django-braces==1.10.0
+
+# Expand option in serializer (Don not used, but as alternative)
+# djangorestframework-expander==0.2.3
+
+# xlrd==1.0.0
+
+# django-crontab==0.7.1
+
+# Parsing SQL queryes
+# sqlparse==0.2.2
+
+# install xhtml2pdf fork with fix css parser
+# git+https://github.com/attract/xhtml2pdf.git
+
 # toolbar
-django-debug-toolbar==1.8
+# django-debug-toolbar==1.8
 
 # requests
-requests==2.22.0
+# requests==2.22.0
